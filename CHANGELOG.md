@@ -12,3 +12,20 @@ All notable changes to RoadFlow-AI will be documented here.
 - Confirmed that the main branch is synchronized with origin/main.
 - Confirmed the working tree is clean.
 - Identified the next step: inspect the existing RoadFlow_Detection project before integrating reusable code.
+
+## Day 3 — October 18, 2026
+
+### Added
+- Created an isolated Python virtual environment.
+- Added the initial image-detection program at `src/roadflow/detect_image.py`.
+- Ran the first YOLO11n inference experiment.
+- Saved and visually verified the annotated sample image.
+
+### Verified
+- Python 3.14.7 environment.
+- Successful imports of Ultralytics, OpenCV, and PyTorch.
+- Five detections on the sample image: one bus and four people.
+
+### Notes
+- Initial inference uses CPU-only PyTorch.
+- Video processing, tracking, counting, and forecasting remain planned work.
