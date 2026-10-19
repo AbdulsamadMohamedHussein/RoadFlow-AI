@@ -127,6 +127,19 @@ Current priorities:
 - Reproduce a vehicle-detection result.
 - Define a reliable process for converting detections into traffic counts.
 
+## Current Implementation
+
+- `src/roadflow/detect_image.py` — single-image object detection.
+- `src/roadflow/detect_video.py` — frame-by-frame video detection and annotation.
+- `journal/daily/day-001.md` through `day-004.md` — daily development records.
+- `data/raw/` — local input videos; excluded from Git.
+- `runs/roadflow/` — local experiment outputs; excluded from Git.
+
+The current video pipeline uses a pretrained YOLO11n model and OpenCV.
+Video detection has been tested on a small sample, but road-vehicle
+detection, object tracking, counting, and forecasting remain future work.
+
+
 ## 👨‍💻 Author
 
 **Abdulsamad Mohamed**

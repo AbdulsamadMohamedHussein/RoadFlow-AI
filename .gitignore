@@ -33,3 +33,5 @@ weights/
 # Logs and temporary files
 *.log
 *.tmp
+
+/bus.jpg
